@@ -41,6 +41,17 @@ Human Confirmation
    |
    v
 AWS EC2
+
 ## Documentation
 
 This project is documented and maintained using Git.
+
+## Project Status
+
+Current implementation includes:
+
+- Zabbix infrastructure monitoring
+- AI-powered investigation
+- Investigation history
+- AI action recommendation
+- Human-approved AWS EC2 actions
