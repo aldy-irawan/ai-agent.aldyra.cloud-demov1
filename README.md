@@ -55,3 +55,17 @@ Current implementation includes:
 - Investigation history
 - AI action recommendation
 - Human-approved AWS EC2 actions
+
+## Git Workflow
+
+This project uses Git for version control.
+
+Main workflow:
+
+- Create a feature branch
+- Make changes
+- Review changes with git diff
+- Commit changes
+- Push branch to GitHub
+- Create a Pull Request
+- Merge into main
