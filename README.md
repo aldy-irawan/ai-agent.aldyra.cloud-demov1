@@ -10,62 +10,74 @@ AI-powered infrastructure monitoring and investigation system.
 - Gemini
 - AWS
 
-## Architecture
+## Key Features
 
-The system connects infrastructure monitoring with an AI agent for automated investigation and human-approved infrastructure actions.
+- Zabbix infrastructure monitoring
+- AI-powered infrastructure investigation
+- Investigation history
+- AI action recommendation
+- Human-approved AWS EC2 actions
+
+## Architecture
 
 ```text
 Browser
-   |
-   v
+  ↓
 FastAPI
-   |
-   v
+  ↓
 AI Agent
-   |
-   +----> Zabbix API
-   |
-   +----> Gemini
-   |
-   v
+  ├── Zabbix API
+  └── Gemini
+  ↓
 Investigation
-   |
-   v
+  ↓
 Action Recommendation
-   |
-   v
+  ↓
 Action Manager
-   |
-   v
+  ↓
 Human Confirmation
-   |
-   v
+  ↓
 AWS EC2
 ```
-## Documentation
-
-This project is documented and maintained using Git.
 
 ## Project Status
 
 Current implementation includes:
 
 - Zabbix infrastructure monitoring
-- AI-powered investigation
+- Automatic AI investigation
 - Investigation history
 - AI action recommendation
-- Human-approved AWS EC2 actions
+- Human-approved AWS EC2 STOP action
 
-## Git Workflow
+## Repository Structure
 
-This project uses Git for version control.
+```text
+ai-agent/
+├── api.py
+├── agent_gemini.py
+├── zabbix_tools.py
+├── action_manager.py
+├── investigation_store.py
+├── agent.py
+├── ai_test.py
+├── gemini_test.py
+├── test_tools.py
+├── zabbix_test.py
+├── api_action_ui.py
+└── docs/
+    └── development-history.md
+```
 
-Main workflow:
+## Documentation
 
-- Create a feature branch
-- Make changes
-- Review changes with git diff
-- Commit changes
-- Push branch to GitHub
-- Create a Pull Request
-- Merge into main
+Detailed development history and technical notes:
+
+- [`docs/development-history.md`](docs/development-history.md)
+
+## Roadmap
+
+- Improve AI investigation capabilities
+- Expand infrastructure actions
+- Improve observability
+- Explore MCP integration as a separate project
