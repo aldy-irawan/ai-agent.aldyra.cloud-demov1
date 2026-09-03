@@ -10,6 +10,37 @@ AI-powered infrastructure monitoring and investigation system.
 - Gemini
 - AWS
 
+## Architecture
+
+The system connects infrastructure monitoring with an AI agent for automated investigation and human-approved infrastructure actions.
+
+```text
+Browser
+   |
+   v
+FastAPI
+   |
+   v
+AI Agent
+   |
+   +----> Zabbix API
+   |
+   +----> Gemini
+   |
+   v
+Investigation
+   |
+   v
+Action Recommendation
+   |
+   v
+Action Manager
+   |
+   v
+Human Confirmation
+   |
+   v
+AWS EC2
 ## Documentation
 
 This project is documented and maintained using Git.
