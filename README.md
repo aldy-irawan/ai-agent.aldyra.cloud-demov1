@@ -41,7 +41,7 @@ Human Confirmation
    |
    v
 AWS EC2
-
+```
 ## Documentation
 
 This project is documented and maintained using Git.
