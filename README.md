@@ -85,4 +85,5 @@ Detailed development history and technical notes:
 - Improve observability
 - Explore MCP integration as a separate project
 
+
 © 2026 Aldy Irawan — Aldyra™. All rights reserved.
