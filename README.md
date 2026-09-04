@@ -1,6 +1,9 @@
-# AI Infrastructure Agent
+# Aldyra™ — AI Infrastructure Agent
 
 AI-powered infrastructure monitoring and investigation system.
+
+**Product:** AI Infrastructure Agent  
+**Domain:** ai-agent.aldyra.cloud
 
 ## Technologies
 
@@ -72,8 +75,8 @@ ai-agent/
 ## Documentation
 
 Detailed development history and technical notes:
-
-- [`docs/development-history.md`](docs/development-history.md)
+- [`docs/installation.md`](docs/installation.md)— Installation and deployment guide
+- [`docs/development-history.md`](docs/development-history.md)— Development history and technical notes
 
 ## Roadmap
 
@@ -81,3 +84,5 @@ Detailed development history and technical notes:
 - Expand infrastructure actions
 - Improve observability
 - Explore MCP integration as a separate project
+
+© 2026 Aldy Irawan — Aldyra™. All rights reserved.
